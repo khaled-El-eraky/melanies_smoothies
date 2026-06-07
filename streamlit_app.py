@@ -69,5 +69,4 @@ import requests
 smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
 
 # Convert the response to JSON and display it cleanly
-sf_json = smoothiefroot_response.json()
-st.json(sf_json)
+st.text(smoothiefroot_response.json())
